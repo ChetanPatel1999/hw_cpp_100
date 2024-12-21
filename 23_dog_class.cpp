@@ -20,6 +20,7 @@ class dog
         cout<<"dog color : "<<color<<endl;
     }
 };
+
 int main()
 {
   dog d1,d2,d3;
