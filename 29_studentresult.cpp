@@ -5,6 +5,8 @@ class student
     int rno;
     string name;
     float per;
+    static int totelfail;
+    static int totelpass;
     public:
     void setstd(int a, string s,float p)
     {
