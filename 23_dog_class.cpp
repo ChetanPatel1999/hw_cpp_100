@@ -23,10 +23,11 @@ class dog
 
 int main()
 {
-  dog d1,d2,d3;
+  dog d1,d2,d3,d4;
   d1.setdog("wifi",12,"red");
   d2.setdog("tommy",8,"white");
   d3.setdog("puppy",1,"brown");
+  d4.setdog("moti",9,"brown");
   d1.displaydog();
   d2.displaydog();
   d3.displaydog();

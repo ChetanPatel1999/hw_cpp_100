@@ -49,11 +49,27 @@ public:
     }
     static void classinfo()
     {
-        cout<<"hi i am student class ..."<<endl;
-        cout<<"setstudent() method "<<endl;
-        cout<<"resultcard() method "<<endl;
-        cout<<"totalresult() method "<<endl;
-        cout<<"disp_total_std() method "<<endl;
+        cout << "hi i am student class ..." << endl;
+        cout << "setstudent() method " << endl;
+        cout << "resultcard() method " << endl;
+        cout << "totalresult() method " << endl;
+        cout << "disp_total_std() method " << endl;
+    }
+    static void average(student obj1 ,student obj2)
+    {
+        float avg;
+        avg=(obj1.per+obj2.per)/2.0;
+        cout<<"average of "<<obj1.name<<" and "<<obj2.name<<" = "<<avg<<endl;
+    }
+    static void greater_score(student o1, student o2)
+    {
+        if(o1.per>o2.per)
+        {
+            cout<<o1.name<<" have greater score"<<endl;
+        }
+        else{
+            cout<<o2.name<<" have greater score"<<endl;
+        }
     }
 };
 int student::totalpass = 0;
@@ -75,5 +91,9 @@ int main()
     s4.resultcard();
     s5.resultcard();
     student::totalreasult();
+    student::average(s1,s2);
+    student::average(s3,s4);
+    student::greater_score(s1,s2);
+    student::greater_score(s3,s4);
     return 0;
 }
