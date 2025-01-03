@@ -10,7 +10,7 @@ class student
     static int totalstd;
 
 public:
-    void setstd(int a, string s, float p)
+    student(int a, string s, float p)
     {
         rno = a;
         name = s;
@@ -55,20 +55,21 @@ public:
         cout << "totalresult() method " << endl;
         cout << "disp_total_std() method " << endl;
     }
-    static void average(student obj1 ,student obj2)
+    static void average(student obj1, student obj2)
     {
         float avg;
-        avg=(obj1.per+obj2.per)/2.0;
-        cout<<"average of "<<obj1.name<<" and "<<obj2.name<<" = "<<avg<<endl;
+        avg = (obj1.per + obj2.per) / 2.0;
+        cout << "average of " << obj1.name << " and " << obj2.name << " = " << avg << endl;
     }
     static void greater_score(student o1, student o2)
     {
-        if(o1.per>o2.per)
+        if (o1.per > o2.per)
         {
-            cout<<o1.name<<" have greater score"<<endl;
+            cout << o1.name << " have greater score" << endl;
         }
-        else{
-            cout<<o2.name<<" have greater score"<<endl;
+        else
+        {
+            cout << o2.name << " have greater score" << endl;
         }
     }
 };
@@ -78,12 +79,11 @@ int student::totalstd = 0;
 int main()
 {
     student::classinfo();
-    student s1, s2, s3, s4, s5;
-    s1.setstd(101, "ram", 22);
-    s2.setstd(102, "shyam", 90);
-    s3.setstd(103, "krish", 12);
-    s4.setstd(104, "rohan", 23);
-    s5.setstd(105, "vaibhav", 5);
+    student s1(101, "ram", 22),
+        s2(102, "shyam", 90),
+        s3(103, "krish", 12),
+        s4(104, "rohan", 23),
+        s5(105, "vaibhav", 5);
     student::disp_total_std();
     s1.resultcard();
     s2.resultcard();
@@ -91,9 +91,9 @@ int main()
     s4.resultcard();
     s5.resultcard();
     student::totalreasult();
-    student::average(s1,s2);
-    student::average(s3,s4);
-    student::greater_score(s1,s2);
-    student::greater_score(s3,s4);
+    student::average(s1, s2);
+    student::average(s3, s4);
+    student::greater_score(s1, s2);
+    student::greater_score(s3, s4);
     return 0;
 }
