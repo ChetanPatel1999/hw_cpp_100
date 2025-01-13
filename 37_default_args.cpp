@@ -11,7 +11,7 @@ void totalbill(int quantity,int price=100)
 }
 int main()
 {
-  add(5,6);
+  add(5);
   totalbill(5);
   return 0;
 }

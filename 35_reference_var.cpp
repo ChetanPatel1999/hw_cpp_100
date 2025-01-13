@@ -3,7 +3,7 @@ using namespace std;
 int main()
 {
   int a=12;
-  int &b=a;
+  int &b=a;   // b is reference variable
   cout<<a<<endl;//12
   cout<<b<<endl;//12
   a=78;
