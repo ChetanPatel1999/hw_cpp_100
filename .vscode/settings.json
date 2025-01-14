@@ -1,5 +1,6 @@
 {
     "files.associations": {
+        "*.html": "html",
         "iostream": "cpp",
         "ostream": "cpp",
         "*.tcc": "cpp",
@@ -19,6 +20,27 @@
         "new": "cpp",
         "streambuf": "cpp",
         "type_traits": "cpp",
-        "typeinfo": "cpp"
+        "typeinfo": "cpp",
+        "array": "cpp",
+        "atomic": "cpp",
+        "cmath": "cpp",
+        "cstddef": "cpp",
+        "deque": "cpp",
+        "unordered_map": "cpp",
+        "vector": "cpp",
+        "algorithm": "cpp",
+        "functional": "cpp",
+        "iterator": "cpp",
+        "memory": "cpp",
+        "memory_resource": "cpp",
+        "numeric": "cpp",
+        "random": "cpp",
+        "string": "cpp",
+        "system_error": "cpp",
+        "tuple": "cpp",
+        "utility": "cpp",
+        "fstream": "cpp",
+        "sstream": "cpp",
+        "stdexcept": "cpp"
     }
 }
