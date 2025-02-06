@@ -16,7 +16,7 @@ public:
 };
 class marks : public student
 {
-public:
+protected:
     int hindi;
     int math;
 

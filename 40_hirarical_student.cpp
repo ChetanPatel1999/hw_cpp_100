@@ -73,7 +73,7 @@ int main()
     cout << "_______________________________" << endl;
     comstd s2;
     s2.setdata("shyam", 102, 10000);
-    s2.setmarkcom(55,76,50);
+    s2.setmarkcom(55, 76, 50);
     s2.disp_std();
     s2.disp_marks_com();
     return 0;

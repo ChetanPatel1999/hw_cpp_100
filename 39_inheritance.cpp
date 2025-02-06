@@ -26,10 +26,10 @@ public:
 };
 int main()
 {
-    B obj;
-    obj.m1();
-    obj.m2();
-    obj.m3();
-    obj.m4();
+    B a1;
+    a1.m1();
+    a1.m2();
+    a1.m3();
+    a1.m4();
     return 0;
 }
