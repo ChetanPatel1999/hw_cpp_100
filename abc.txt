@@ -1,0 +1,4 @@
+hi this is c code for file handling
+this is a variable data
+and my name is chetan
+please tell me something about you

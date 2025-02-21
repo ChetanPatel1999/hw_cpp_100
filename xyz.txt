@@ -1,0 +1,8 @@
+hi this is c code for file handling
+this is a variable data
+hi this is c code for file handling
+this is a variable data
+hi this is c code for file handling
+this is a variable data
+hi this is c code for file handling
+this is a variable data
